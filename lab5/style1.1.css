@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(238, 238, 224);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+address {
+    text-align: left;
+
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 170px;
+    height: 25px;
+    background-color: bisque;
+    float: right;
+}
+
+ol {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+dl {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    font-style: italic;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 7px solid bisque;
+    background-color: beige;
+}
+
+caption {
+    background-color: rgb(241, 217, 185);
+    text-align: center;
+    padding: 10px;
+    border: 7px solid bisque;
+    font-family: cursive;
+    font-size: 30px;
+    color: brown
+}
+
+td {
+    font-family: cursive;
+    font-size: 20px;
+    color: brown
+}

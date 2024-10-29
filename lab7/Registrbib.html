@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="registr.css">
+</head>
+
+<body>
+    <form action="file:///C:/MyPythonProjects/lab5/Biblioteka.html" method="post">
+        <table class="container">
+            <caption>
+                <b>Регистрация</b>
+            </caption>
+            <tr>
+                <td>Имя:</td>
+                <td><input type="text" id="name" name="name" autofocus required></td>
+            </tr>
+            <tr>
+                <td>Фамилия:</td>
+                <td><input type="text" id="surname" name="surname" required></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Пароль:</td>
+                <td><input type="password" name="pass"></td>
+            </tr>
+            <tr>
+                <td>Повторите пароль:</td>
+                <td><input type="password" name="pass"></td>
+            </tr>
+            <tr>
+                <td>Пол:</td>
+                <td>
+                    <input type="radio" name="gender" id="g1" value="1">
+                    <label for="g1">Мужчина</label> <br>
+                    <input type="radio" name="gender" id="g2" value="1">
+                    <label for="g1">Женщина</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Год рождения:</td>
+                <td>
+                    <input type="date" id="datepicker" name="datepicker">
+            </tr>
+            <tr>
+                <td>Полных лет:</td>
+                <td>
+                    <input type="number" id="number" name="number">
+                </td>
+            </tr>
+            <tr>
+                <td>Знание языков:</td>
+                <td>
+                    <input type="checkbox" name="languadg" value="Rushen">Русский<br>
+                    <input type="checkbox" name="languadg" value="Belarus">Белорусский<br>
+                    <input type="checkbox" name="languadg" value="Inglish">Английский<br>
+                    <input type="checkbox" name="languadg" value="China">Китайский<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Ваш любимый цвет:</td>
+                <td>
+                    <input type="color" id="color" name="color">
+                </td>
+            </tr>
+            <tr>
+                <td>Хотите получать рассылку на почту:</td>
+                <td>
+                    <input type="checkbox" name="Yes">Да<br>
+                    <input type="checkbox" name="No">Нет<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="description" cols="40" rows="10">Пожелания</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Отправить">
+                    <button type="reset">Сбросить</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

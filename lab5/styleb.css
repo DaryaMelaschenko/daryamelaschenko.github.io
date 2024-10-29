@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(238, 238, 224);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+address {
+    text-align: left;
+
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 170px;
+    height: 25px;
+    background-color: bisque;
+    float: right;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('book.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}

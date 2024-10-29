@@ -1,0 +1,61 @@
+.gallery {
+    position: relative;
+    height: 700px;
+    margin-top: 60px;
+
+}
+
+.overlay-text {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    z-index: 2;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    opacity: 0;
+    animation: fade 10s infinite;
+}
+
+.slide1 {
+    background-image: url("b1.jfif");
+    animation-delay: 0s;
+}
+
+.slide2 {
+    background-image: url("b2.webp");
+    animation-delay: 3s;
+}
+
+.slide3 {
+    background-image: url("b3.jpg");
+    animation-delay: 5s;
+}
+
+@keyframes fade {
+
+    0%,
+    5% {
+        opacity: 0;
+    }
+
+    35%,
+    60% {
+        opacity: 1;
+    }
+
+    75%,
+    95% {
+        opacity: 0;
+    }
+}
